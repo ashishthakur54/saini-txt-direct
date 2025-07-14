@@ -63,12 +63,12 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/saini_contact_bot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/THAKUR_CONTACT_BOT")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+3k-1zcJxINYwNGZl"),
-            InlineKeyboardButton(text="🛠️ Repo", url="https://github.com/nikhilsainiop/saini-txt-direct"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/THAKUR_CONTACT_BOT"),
+            InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/StudyXashish"),
         ],
     ]
 )
@@ -463,7 +463,7 @@ async def start(bot, m: Message):
     else:
         await asyncio.sleep(2)
         await start_message.edit_text(
-           f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
+           f" 🎉 Welcome {m.from_user.first_name} to DRM Bot TKAKUR! 🎉\n\n"
            f"You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including\n\n"
            f"Use Command : /help to get started 🌟\n\n"
            f"<blockquote>• 📚 Appx Zip+Encrypted Url\n"
@@ -489,7 +489,7 @@ async def start(bot, m: Message):
 async def id_command(client, message: Message):
     chat_id = message.chat.id
     await message.reply_text(
-        f" 🎉 Welcome {message.from_user.first_name} to DRM Bot! 🎉\n\n"
+        f" 🎉 Welcome {message.from_user.first_name} to DRM Bot THAKUR! 🎉\n\n"
            f"You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including\n\n"
            f"Use Command : /help to get started 🌟\n\n"
            f"<blockquote>• 📚 Appx Zip+Encrypted Url\n"
